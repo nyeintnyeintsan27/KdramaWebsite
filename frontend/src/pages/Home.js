@@ -110,11 +110,10 @@ export default function Home({onAdminLoginClick}) {
 
       <div className="d-flex justify-content-end mb-3">
         <button
-          className="btn btn-sm btn-danger rounded-pill"
+          className="btn btn-sm btn-warning rounded-pill"
           onClick={toggleTheme}
         >
 
-          
           {theme === "dark" ? "🌙 Dark" : "☀ Light"}
         </button>
       </div>
