@@ -19,7 +19,7 @@ import taxidriver from "../assets/images/taxidriver.webp";
 import undercover from "../assets/images/undercover.webp";
 
 export default function Home({onAdminLoginClick}) {
-  /* ================= THEME (DARK / LIGHT) ================= */
+  /* ==== THEME (DARK / LIGHT) ==== */
 
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") || "dark"
@@ -34,7 +34,7 @@ export default function Home({onAdminLoginClick}) {
     setTheme(theme === "dark" ? "light" : "dark");
   };
 
-  /* ================= FEATURED ================= */
+  /* ==== FEATURED ====*/
 
   const featuredList = useMemo(() => [
     {
@@ -63,7 +63,7 @@ export default function Home({onAdminLoginClick}) {
   const [featured, setFeatured] = useState(featuredList[0]);
   const [showModal, setShowModal] = useState(false);
 
-  /* ================= AUTO CHANGE ================= */
+  /* ==== AUTO CHANGE ====*/
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -74,8 +74,6 @@ export default function Home({onAdminLoginClick}) {
 
     return () => clearInterval(interval);
   }, [featuredList]);
-
-  /* ================= DATA ================= */
 
   const horror = [
     { title: "Newtopia", year: "2024", image: newtopia },
@@ -101,12 +99,12 @@ export default function Home({onAdminLoginClick}) {
     { title: "Business Proposal", year: "2016", image: businesspropo },
   ];
 
-  /* ================= ADMIN MODAL STATE ================= */
+  /* ==== ADMIN MODAL STATE ===== */
   const [showAdminModal, setShowAdminModal] = useState(false);
 
   return (
     <div className="container py-4">
-{/* ================= THEME BUTTON (TOP RIGHT) ================= */}
+{/* ==== THEME BUTTON (TOP RIGHT) ===== */}
 
       <div className="d-flex justify-content-end mb-3">
         <button
