@@ -34,16 +34,13 @@ function AdminMovieList() {
     <div style={{ padding: "40px", background: "transparent", minHeight: "100vh" }}>
 
       {/* TOP BAR */}
-      <div
-        style={{
+      <div style={{
           display: "flex",
           justifyContent: "space-between",
           marginBottom: "30px",
         }}
       >
-        <button
-          onClick={() => navigate("/admin")}
-          style={{
+        <button onClick={() => navigate("/admin")} style={{
             padding: "8px 15px",
             border: "none",
             background: "#0f172a",
@@ -55,9 +52,7 @@ function AdminMovieList() {
           ← Back to Dashboard
         </button>
 
-        <button
-          onClick={() => navigate("/admin/movies/add")}
-          style={{
+        <button onClick={() => navigate("/admin/movies/add")} style={{
             padding: "8px 15px",
             border: "none",
             background: "#0f172a",
@@ -75,17 +70,14 @@ function AdminMovieList() {
       {movies.length === 0 ? (
         <p>No movies found.</p>
       ) : (
-        <div
-          style={{
+        <div style={{
             display: "grid",
             gridTemplateColumns: "repeat(auto-fill,minmax(220px,1fr))",
             gap: "30px",
           }}
         >
           {movies.map((m) => (
-            <div
-              key={m.id}
-              style={{
+            <div key={m.id} style={{
                 background: "#0f172a",
                 borderRadius: "10px",
                 overflow: "hidden",
@@ -96,10 +88,7 @@ function AdminMovieList() {
                 minHeight: "420px"
               }}
             >
-              <img
-                src={`http://localhost:5000/uploads/${m.image}`}
-                alt={m.title}
-                style={{
+              <img src={`http://localhost:5000/uploads/${m.image}`} alt={m.title} style={{
                   width: "100%",
                   height: "250px",
                   color:"white",
@@ -107,8 +96,7 @@ function AdminMovieList() {
                 }}
               />
 
-              <div
-                style={{
+              <div style={{
                   padding: "15px",
                   display: "flex",
                   color:"white",
@@ -131,16 +119,13 @@ function AdminMovieList() {
                 </p>
 
                 {/* BUTTONS */}
-                <div
-                  style={{
+                <div style={{
                     display: "flex",
                     gap: "10px",
                     marginTop: "auto"
                   }}
                 >
-                  <button
-                    onClick={() => navigate(`/admin/movies/edit/${m.id}`)}
-                    style={{
+                  <button onClick={() => navigate(`/admin/movies/edit/${m.id}`)} style={{
                       flex: 1,
                       padding: "8px",
                       border: "none",
@@ -153,9 +138,7 @@ function AdminMovieList() {
                     Edit
                   </button>
 
-                  <button
-                    onClick={() => handleDelete(m.id)}
-                    style={{
+                  <button onClick={() => handleDelete(m.id)} style={{
                       flex: 1,
                       padding: "8px",
                       border: "none",

@@ -56,7 +56,7 @@ function MovieList() {
   return (
     <div style={{ padding: "40px" }}>
 
-      {/* ================= THEME BUTTON (TOP RIGHT) ================= */}
+      {/* == THEME BUTTON (TOP RIGHT) == */}
     <div className="d-flex justify-content-end mb-3">
       <button
         className="btn btn-sm btn-danger rounded-pill"
@@ -66,7 +66,6 @@ function MovieList() {
       </button>
     </div>
 
-    {/* ================= CSS VARIABLES ================= */}
     <style>
       {`
         :root[data-theme="dark"] {
@@ -88,8 +87,7 @@ function MovieList() {
     </style>
 
       <h2>Movie Catalog</h2>
-
-      {/* Search + Category flex container */}
+      {/* Search and Category flex container */}
       <div
         style={{
           display: "flex",
@@ -101,7 +99,7 @@ function MovieList() {
           gap: "10px",
         }}
       >
-        {/* Left: Search */}
+        {/* Left Search */}
         <input
           type="text"
           placeholder="Search movies..."
@@ -111,7 +109,7 @@ function MovieList() {
             padding: "8px 12px",
             borderRadius: "5px",
             border: "1px solid #ccc",
-            flex: "1 1 200px", // flexible width, min 200px
+            flex: "1 1 200px", 
             minWidth: "150px",
           }}
         />

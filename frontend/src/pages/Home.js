@@ -117,7 +117,7 @@ export default function Home({onAdminLoginClick}) {
           {theme === "dark" ? "🌙 Dark" : "☀ Light"}
         </button>
       </div>
-      {/* ================= WELCOME SECTION ================= */}
+      {/* ==== WELCOME SECTION ==== */}
         <div className="text-center mb-4">
 
           <img
@@ -144,10 +144,6 @@ export default function Home({onAdminLoginClick}) {
 
         </div>
 
-      
-
-      {/* ================= CSS VARIABLES ================= */}
-
       <style>
         {`
           :root[data-theme="dark"] {
@@ -168,7 +164,7 @@ export default function Home({onAdminLoginClick}) {
         `}
       </style>
 
-      {/* ================= FEATURED HERO ================= */}
+      {/* ==== FEATURED HERO ==== */}
 
       <div
         className="mb-5 p-5 rounded-4 text-white position-relative overflow-hidden"
@@ -214,7 +210,7 @@ export default function Home({onAdminLoginClick}) {
         </div>
       </div>
 
-      {/* ================= TRAILER MODAL ================= */}
+      {/* ==== TRAILER MODAL ==== */}
 
       {showModal && (
         <div
@@ -234,7 +230,7 @@ export default function Home({onAdminLoginClick}) {
         </div>
       )}
 
-      {/* ================= SECTIONS ================= */}
+      {/* ==== SECTIONS ==== */}
 
       <div className="mb-5">
         <h3 className="fw-bold mb-3">🔥 Popular Dramas</h3>
@@ -262,7 +258,7 @@ export default function Home({onAdminLoginClick}) {
           ))}
         </div>
       </div>
-      {/* ================= ADMIN LOGIN MODAL ================= */}
+      {/* ==== ADMIN LOGIN MODAL ==== */}
       {showAdminModal && <AdminLogin onClose={() => setShowAdminModal(false)} />}
     </div>
   );

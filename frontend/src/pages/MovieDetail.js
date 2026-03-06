@@ -32,7 +32,7 @@ function MovieDetail() {
   return (
     <div style={{ padding: "40px", display: "flex", justifyContent: "center" }}>
       
-      {/* ================= THEME BUTTON ================= */}
+      {/* === THEME BUTTON === */}
       <div style={{ position: "absolute", top: "20px", right: "30px" }}>
         <button
           className="btn btn-sm btn-outline-danger rounded-pill"
@@ -41,8 +41,6 @@ function MovieDetail() {
           {theme === "dark" ? "🌙 Dark" : "☀ Light"}
         </button>
       </div>
-
-      {/* ================= CSS ================= */}
       <style>
         {`
         :root[data-theme="dark"] {

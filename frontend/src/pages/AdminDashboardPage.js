@@ -11,7 +11,7 @@ function AdminDashboard() {
       try {
         const moviesRes = await axios.get("http://localhost:5000/api/movies");
         const upcomingRes = await axios.get("http://localhost:5000/api/upcoming");
-        setMoviesCount(moviesRes.data.length); // assuming res.data is array
+        setMoviesCount(moviesRes.data.length); 
         setUpcomingCount(upcomingRes.data.length);
       } catch (err) {
         console.error("Error fetching counts:", err);
@@ -21,8 +21,7 @@ function AdminDashboard() {
   }, []);
 
   return (
-    <div
-      style={{
+    <div style={{
         padding: "50px",
         minHeight: "100vh",
         background: "transparent",
@@ -30,8 +29,7 @@ function AdminDashboard() {
         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
       }}
     >
-      <h1
-        style={{
+      <h1 style={{
           marginBottom: "40px",
           fontWeight: "700",
           letterSpacing: "1px",
@@ -41,24 +39,15 @@ function AdminDashboard() {
         Admin Dashboard
       </h1>
 
-      <div
-        style={{
+      <div style={{
           display: "flex",
           flexWrap: "wrap",
           gap: "24px",
         }}
       >
-        <AdminCard
-          title="Movies"
-          description={`Manage movies (${moviesCount})`}
-          route="/admin/movies"
-        />
+        <AdminCard title="Movies" description={`Manage movies (${moviesCount})`} route="/admin/movies"/>
+        <AdminCard title="Upcoming" description={`Manage upcoming (${upcomingCount})`} route="/admin/upcoming/list"/>
 
-        <AdminCard
-          title="Upcoming"
-          description={`Manage upcoming (${upcomingCount})`}
-          route="/admin/upcoming/list"
-        />
       </div>
     </div>
   );

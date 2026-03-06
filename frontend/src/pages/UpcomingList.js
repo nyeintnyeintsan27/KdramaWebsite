@@ -55,7 +55,7 @@ function UpcomingList() {
 
   return (
     <div style={{ padding: "40px" }}>
-      {/* ================= THEME BUTTON (TOP RIGHT) ================= */}
+      {/* === THEME BUTTON (TOP RIGHT) === */}
     <div className="d-flex justify-content-end mb-3">
       <button
         className="btn btn-sm btn-danger rounded-pill"
@@ -64,8 +64,6 @@ function UpcomingList() {
         {theme === "dark" ? "🌙 Dark" : "☀ Light"}
       </button>
     </div>
-
-    {/* ================= CSS VARIABLES ================= */}
     <style>
       {`
         :root[data-theme="dark"] {
@@ -87,7 +85,7 @@ function UpcomingList() {
     </style>
       <h2>Upcoming Movies</h2>
 
-      {/* Search + Categories */}
+      {/* Search and Categories */}
       <div
         style={{
           display: "flex",
