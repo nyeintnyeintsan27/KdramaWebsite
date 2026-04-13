@@ -1,90 +1,126 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto&size=32&duration=3500&pause=500&center=true&vCenter=true&width=550&lines=%F0%9F%8C%B8+Nyeint+Nyeint+San+%F0%9F%8C%B8;%F0%9F%92%96+Full+Stack+Developer+%F0%9F%92%96;%F0%9F%8F%A0%EF%B8%8F+From+Myanmar+%F0%9F%8F%A0%EF%B8%8F;%E2%9C%A8+Code.+Create.+Shine.+%E2%9C%A8" alt="Typing SVG" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=nyeintnyeintsan27&label=%F0%9F%92%96+Profile+Views&color=ff69b4&style=flat-square" alt="nyeintnyeintsan27" />
+  <img src="https://img.shields.io/badge/%F0%9F%92%96-Coding%20with%20Love-pink?style=flat-square&labelColor=ff69b4&color=ff99cc" />
+  <img src="https://img.shields.io/github/followers/nyeintnyeintsan27?label=%F0%9F%8C%B8%20Followers&style=social&logo=github&color=ff69b4" />
+</p>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+<p align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW5tNWQ5ZGp2OXZoNm1scDJpdGV0emw0cGJreGdqOWU1ZnZ2bmt2ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/KkzM2P4sf8x7QQO6cj/giphy.gif" alt="Cute Capybara drinking boba" width="280" />
+  <br />
+  <i>🌸 coding with coffee & boba capybara 🌸</i>
+</p>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 💖 About Me
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> *"Code is my canvas, and I paint with pink 💕"*
 
-### `npm test`
+<table align="center">
+<tr>
+<td valign="top" width="50%">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### 💻 What I'm Doing
 
-### `npm run build`
+| | |
+|---|---|
+| 🔭 **Working on** | NestJS, Next.js, Bruno, Cloudinary |
+| 🌱 **Learning** | NestJS, Express, API Keys |
+| 👯 **Collab** | Student Management System, University Projects |
+| 🤝 **Need help** | Student Management System |
+| 💬 **Ask me** | React, PHP, Laravel, Tailwind CSS |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</td>
+<td valign="top" width="50%">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### 🌸 Fun Facts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| | |
+|---|---|
+| 💖 **Fun fact** | Math? No. Numbers? Yes!<br>*(except zero – zero is my enemy 🤡)* |
+| 📫 **Email** | nyeintsan2152@gmail.com |
+| 📝 **Portfolio** | [github.com/nyeintnyeintsan27](https://github.com/nyeintnyeintsan27) |
+| 🎀 **Status** | ✨ Open to collaborate ✨ |
 
-### `npm run eject`
+</td>
+</tr>
+</table>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🎀 Connect With Me
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="center">
+  <a href="https://linkedin.com/in/nyeint-nyeint-san" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-ff69b4?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://fb.com/nyeint-nyeint-san" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-ff69b4?style=for-the-badge&logo=facebook&logoColor=white" />
+  </a>
+  <a href="mailto:nyeintsan2152@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-ff69b4?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/nyeintnyeintsan27" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-ff69b4?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+### 🛠️ Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nestjs,nodejs,express,php,laravel,bootstrap,tailwind,js,mysql,postgresql,docker,git,kotlin&theme=light&perline=8" />
+</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+### 📊 GitHub Stats
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=nyeintnyeintsan27&theme=omni&hide_border=true&background=fff0f5&ring=ff69b4&fire=ff99cc&currStreakLabel=ff69b4&sideLabels=555" alt="GitHub Streak" width="48%" />
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+### 💫 Quote of the Moment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light" alt="Random Quote" />
+</p>
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 🎀 Visitor Count
 
-### `npm run build` fails to minify
+<p align="center">
+  <table align="center">
+    <tr>
+      <td align="center">
+        <img src="https://media.tenor.com/4eFqKtt0XmsAAAAi/capybara.gif" width="50" />
+      </td>
+      <td align="center">
+        <img src="https://komarev.com/ghpvc/?username=nyeintnyeintsan27&label=🌸%20Capybara%20Visitors%20🌸&color=ff69b4&style=for-the-badge" alt="visitors" />
+      </td>
+      <td align="center">
+        <img src="https://media.tenor.com/4eFqKtt0XmsAAAAi/capybara.gif" width="50" />
+      </td>
+    </tr>
+  </table>
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-## KDrama Website Project
+<p align="center">
+  <i>🦦 thanks for visiting – stay chill like a capybara 🧋</i>
+</p>
 
-This is a simple **Drama Website** project that I built while learning full-stack web development. The project is developed using **React** for the frontend and **Node.js** for the backend. The database used in this project is **MySQL**.
-
-The website allows users to view drama information and provides basic **CRUD functionality (Create, Read, Update, Delete)** for managing drama content. The interface is styled using **Bootstrap** to make the layout responsive and user-friendly.
-
-This project was created as part of my learning process to practice how a full-stack application works, including connecting the frontend with the backend API and handling data with a database.
-
-Through this project, I practiced:
-
-* Building a frontend using React components
-* Creating backend APIs with Node.js
-* Connecting Node.js with a MySQL database
-* Implementing CRUD operations
-* Designing responsive UI with Bootstrap
-
-This project represents my current skills as a **junior developer** and demonstrates my understanding of basic full-stack development concepts.
->>>>>>> 684a628bc8a2911a117bdbad4514b8ebb3dd052a
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=ff69b4&height=100&section=footer" />
+</p>
